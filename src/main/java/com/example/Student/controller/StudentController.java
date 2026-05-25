@@ -33,6 +33,7 @@ public class StudentController {
 	public String deleteStudent(@PathVariable int id) {
 		return studentService.deleteStudent(id);
 	}
+//	update the existing students details
 	@PutMapping("/update")
 	public String updateStudent(@RequestBody Student student) {
 		
